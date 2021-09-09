@@ -26,3 +26,12 @@ let remainder = 9 % 2; // modulop
 console.log(1 / 0) // infinity
 console.log(Infinity) // infinity
 console.log("not a number" / 2) // Nan, such divission is erroneous
+
+// Boolean
+let isLogin = true;
+
+if( isLogin == true){
+  console.log("Login success!")
+} else {
+  console.log("Login failed!")
+}
