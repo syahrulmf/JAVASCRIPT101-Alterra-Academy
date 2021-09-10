@@ -35,3 +35,10 @@ if( isLogin == true){
 } else {
   console.log("Login failed!")
 }
+
+// parseInt
+
+let ac = 10;
+let ab = '10';
+
+console.log(ac + parseInt(ab));
